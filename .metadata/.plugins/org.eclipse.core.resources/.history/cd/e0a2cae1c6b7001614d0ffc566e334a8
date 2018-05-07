@@ -1,0 +1,58 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context="com.example.myview.MainActivity" >
+
+    <Button 
+        android:id="@+id/myRect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="#88000000"
+        android:text="旋转矩形"/>
+    
+    <Button 
+        android:id="@+id/scalBt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="#88000000"
+        android:text="透明按钮"/>
+    
+    <Button 
+        android:id="@+id/reBt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="#88000000"
+        android:text="旋转按钮"/>
+    
+    <Button 
+        android:id="@+id/moveBt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="#88000000"
+        android:text="移动按钮"/>
+    
+    <Button 
+        android:id="@+id/suoBt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="#88000000"
+        android:text="缩放按钮"/>
+    
+    <Button 
+        android:id="@+id/sumBt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="#88000000"
+        android:text="复合动画"/>
+    
+
+</LinearLayout>

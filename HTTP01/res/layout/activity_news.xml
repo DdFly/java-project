@@ -1,0 +1,59 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.http01.NewsActivity" >
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:background="#E04343"
+        android:text="头条新闻"
+        android:textSize="25sp" />
+    <ListView 
+        android:id="@+id/news_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/name">
+    </ListView>
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#E04343"
+        android:orientation="horizontal">
+        <ImageButton 
+            android:id="@+id/first_page"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/ic_launcher"
+            android:background="#0fff"
+            />
+        <ImageButton 
+            android:id="@+id/video_page"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/ic_launcher"
+            android:background="#0fff"/>
+        <ImageButton 
+            android:id="@+id/guanzhu_page"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/ic_launcher"
+            android:background="#0fff"/>
+        <ImageButton 
+            android:id="@+id/self_page"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/ic_launcher"
+            android:background="#0fff"/>
+    </LinearLayout>
+
+</RelativeLayout>

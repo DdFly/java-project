@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <TextView 
+        android:id="@+id/musicText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:text="点击播放"
+        />
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+		android:gravity="center"
+        android:orientation="horizontal">
+        <ImageButton 
+	        android:id="@+id/playMusic"
+	        android:layout_width="50dp"
+	        android:layout_height="50dp"
+	        android:src="@drawable/play1"/>
+	    <ImageButton 
+	        android:id="@+id/pauseMusic"
+	        android:layout_width="50dp"
+	        android:layout_height="50dp"
+	        android:src="@drawable/pause1"/>
+		<ImageButton 
+	        android:id="@+id/stopMusic"
+	        android:layout_width="50dp"
+	        android:layout_height="50dp"
+	        android:src="@drawable/stop1"/>
+    </LinearLayout>
+    <ListView 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/musicList"
+        android:layout_marginTop="10dp">       
+    </ListView>
+    
+</LinearLayout>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+	<RelativeLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:gravity="center_vertical"
+	    android:background="#0E6DB0">
+	    <ImageButton 
+	        android:id="@+id/open_drewer"
+	        android:layout_width="30dp"
+	        android:layout_height="30dp"
+	        android:layout_centerVertical="true"
+	        android:layout_alignParentLeft="true"
+	        android:background="#00000000"
+	        android:src="@drawable/cehua"/>
+	    <TextView 
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_centerHorizontal="true"
+	        android:layout_margin="10dp"
+	        android:text="TTMS"
+	        android:textSize="25sp"
+	        />
+	    <ImageButton 
+	        android:id="@+id/add_bt"
+	        android:layout_width="40dp"
+	        android:layout_height="40dp"
+	        android:scaleType="fitCenter"
+	        android:layout_alignParentRight="true"
+	        android:layout_centerVertical="true"
+	        android:background="#00000000"
+	        android:src="@drawable/addimg"/>
+	</RelativeLayout>
+	<android.support.v4.view.ViewPager
+	    android:id="@+id/viewPager"
+	    android:layout_width="match_parent"
+	    android:layout_height="0dp"
+	    android:layout_weight="1">
+	    	    
+	</android.support.v4.view.ViewPager>
+	<LinearLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="60dp"
+	    android:background="#0E6DB0"
+	    android:orientation="horizontal">
+	    <LinearLayout 
+	        android:id="@+id/tab1"
+	        android:layout_width="0dp"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1"
+	        android:gravity="center"
+	        android:orientation="vertical">
+	        <ImageView android:id="@+id/tab1_img"
+	            android:layout_width="wrap_content"
+	            android:layout_height="30dp"
+	            android:src="@drawable/tab1_selector_bg"/>
+	        <TextView android:id="@+id/tab1_text"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_marginTop="10dp"
+	            android:text="影片管理"/>
+	    </LinearLayout>
+	    <LinearLayout 
+	        android:id="@+id/tab2"
+	        android:layout_width="0dp"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1"
+	        android:gravity="center"
+	        android:orientation="vertical">
+	        <ImageView android:id="@+id/tab2_img"
+	            android:layout_width="wrap_content"
+	            android:layout_height="30dp"
+	            android:src="@drawable/tab2_selector_bg"/>
+	        <TextView android:id="@+id/tab2_text"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_marginTop="10dp"
+	            android:text="影厅管理"/>
+	    </LinearLayout>
+	    <LinearLayout 
+	        android:id="@+id/tab3"
+	        android:layout_width="0dp"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1"
+	        android:gravity="center"
+	        android:orientation="vertical">
+	        <ImageView android:id="@+id/tab3_img"
+	            android:layout_width="wrap_content"
+	            android:layout_height="30dp"
+	            android:src="@drawable/tab3_selector_bg"/>
+	        <TextView android:id="@+id/tab3_text"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_marginTop="10dp"
+	            android:text="员工管理"/>
+	    </LinearLayout> 
+	    <LinearLayout 
+	        android:id="@+id/tab4"
+	        android:layout_width="0dp"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1"
+	        android:gravity="center"
+	        android:orientation="vertical">
+	        <ImageView android:id="@+id/tab4_img"
+	            android:layout_width="wrap_content"
+	            android:layout_height="30dp"
+	            android:src="@drawable/tab4_selector_bg"/>
+	        <TextView android:id="@+id/tab4_text"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_marginTop="10dp"
+	            android:text="演出计划"/>
+	    </LinearLayout>
+	</LinearLayout>
+    
+    
+    
+
+</LinearLayout>
+

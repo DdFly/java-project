@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "
+http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.xupt.ams.dao.EmployeeDao">
+	<!-- 结果映射 -->
+	<resultMap type="EmployeeInfo" id="rm1">
+		<id property="emp_id" column="emp_id"/>
+		<result property="dept_id" column="dept_id"/>
+		<result property="emp_type" column="emp_type"/>
+		<result property="emp_name" column="emp_name"/>
+		<result property="emp_gender" column="emp_gender"/>
+	</resultMap>
+	
+	<!-- 根据员工编号，获取员工信息 -->
+	<select id="getEmpInfoById" parameterType="integer" resultMap="rm1">
+		select * from employee where emp_id = #{empId}
+	</select>
+	
+	<!-- 查询员工列表 -->
+	<select id="getEmployeeList" resultMap="rm1">
+		select * from employee;
+	</select>
+	
+	<!-- 获取员工的总页数 -->
+	<select id="getPageCount" resultType="_int">
+		SELECT count(*) FROM employees
+	</select>
+	
+	<!-- 获取所有的员工列表 -->
+	<select id="getCurrentEmps" parameterType="map" resultMap="rm1">
+		SELECT 	* FROM employees WHERE emp_flag != 1  
+		LIMIT #{startRownum},#{pageEmpNum}
+	</select>
+	
+	<!-- 添加员工 -->
+	<insert id="addEmpInfo" parameterType="EmployeeInfo" useGeneratedKeys="true" keyProperty="emp_id">
+		insert into employees (dept_id,emp_type,emp_name,emp_gender) 
+		values( #{dept_id,jdbcType=INTEGER},
+				#{emp_type,jdbcType=INTEGER},
+				#{emp_name,jdbcType=VARCHAR},
+				#{emp_gender,jdbcType=VARCHAR}
+			  )
+	</insert>
+	
+	<!-- 根据员工编号，删除员工信息 -->
+	<delete id="deleteEmpInfoById" parameterType="integer">
+		delete from employee where emp_id = #{empId}
+	</delete>
+	
+	<!-- 更新用户信息 -->
+	<update id="updateEmpInfoByEmpId" parameterType="EmployeeInfo">
+		update employees set dept_id=#{dept_id,jdbcType=INTEGER},
+							 emp_type=#{emp_type,jdbcType=INTEGER},
+							 emp_name=#{emp_name,jdbcType=VARCHAR},
+							 emp_gender=#{emp_dob,jdbcType=VARCHAR}
+		where emp_id=#{emp_id}
+	</update>
+</mapper>

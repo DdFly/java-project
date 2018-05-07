@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;anim&apos; to &apos;res&apos;&#x0D;&#x0A;－ 原始项目：“UI”&#x0D;&#x0A;－ 目标元素：“res”&#x0D;&#x0A;－ 原始元素：“anim”" description="复制文件夹" element1="res/anim" files="0" flags="589830" folders="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1491372556379" target="/ATTMS/res" units="0" version="1.0"/>
+</session>

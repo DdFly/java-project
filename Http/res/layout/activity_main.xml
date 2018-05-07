@@ -1,0 +1,23 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/main"
+    tools:context="com.example.http.MainActivity" > 
+	
+    <Button 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="发送HttpURLConnection请求"
+        android:id="@+id/send1"/>
+    <ScrollView 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView 
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/Intent_text"/>
+    </ScrollView>
+</LinearLayout>

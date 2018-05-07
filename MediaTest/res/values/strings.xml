@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MediaTest</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="_turnAudio">调节音量</string>
+    <string name="_mediaPlayer">播放音乐</string>
+    <string name="_mediaRecoder">录音功能</string>
+    <string name="_camera">拍照功能</string>
+
+</resources>

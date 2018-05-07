@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="将资源“MediaTest/res/layout/recorder_item.xml”重命名为“media_item.xml”" description="重命名资源“recorder_item.xml”" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="res/layout/recorder_item.xml" name="media_item.xml" stamp="1474896839870" updateReferences="true"/>
+</session>

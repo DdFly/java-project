@@ -1,0 +1,17 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:myrec="http://schemas.android.com/apk/res/com.example.myview"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.myview.MoveRec" >
+	
+    <com.example.myview.Rec
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        
+    </com.example.myview.Rec>
+    
+
+</LinearLayout>

@@ -1,0 +1,63 @@
+package com.example.myview;
+
+import android.app.Activity;
+import android.content.Intent;
+import android.os.Bundle;
+import android.provider.ContactsContract.AggregationExceptions;
+import android.view.Menu;
+import android.view.MenuItem;
+import android.view.View;
+import android.view.View.OnClickListener;
+import android.view.animation.AlphaAnimation;
+import android.view.animation.AnimationUtils;
+import android.widget.Button;
+
+public class MainActivity extends Activity {
+
+	Button xz;
+	Button tm;
+	Button yd;
+	Button sf;
+	Button fh;
+	Button MyRec;
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.activity_main);
+		xz = (Button) findViewById(R.id.reBt);
+		tm = (Button) findViewById(R.id.scalBt);
+		yd = (Button) findViewById(R.id.moveBt);
+		sf = (Button) findViewById(R.id.suoBt);
+		fh = (Button) findViewById(R.id.sumBt);
+		MyRec = (Button) findViewById(R.id.myRect);
+		MyRec.setOnClickListener(new OnClickListener() {
+			
+			@Override
+			public void onClick(View arg0) {
+				// TODO 自动生成的方法存根
+				Intent intent = new Intent(MainActivity.this, MoveRec.class);
+				startActivity(intent);
+				
+			}
+		});
+		tm.setOnClickListener(new OnClickListener() {
+			
+			@Override
+			public void onClick(View arg0) {
+				// TODO 自动生成的方法存根
+				AlphaAnimation aa = new AlphaAnimation(0, 1);
+				aa.setDuration(1000);
+				arg0.setAnimation(aa);
+//				arg0.startAnimation(AnimationUtils.loadAnimation(MainActivity.this,R.anim.aa));
+			}
+		});
+		xz.setOnClickListener(new OnClickListener() {
+			
+			@Override
+			public void onClick(View arg0) {
+				// TODO 自动生成的方法存根
+				
+			}
+		});
+	}
+}

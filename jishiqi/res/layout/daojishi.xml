@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <EditText 
+        android:id="@+id/edit_setTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:lines="1"
+        android:gravity="center"
+        android:hint="请输入时间"/>
+    <TextView 
+        android:id="@+id/text_daojishi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="0"
+        android:background="#aabbcc"
+        android:textSize="50dp"/>
+    <Button 
+        android:id="@+id/btn_daojishi_getTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="获取时间"/>
+    <Button 
+        android:id="@+id/btn_daojishi_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="开始"/>
+        <Button 
+        android:id="@+id/btn_daojishi_stop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="停止"/>
+            <Button 
+        android:id="@+id/btn_daojishi_reset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="重置"/>
+
+    
+    
+
+</LinearLayout>

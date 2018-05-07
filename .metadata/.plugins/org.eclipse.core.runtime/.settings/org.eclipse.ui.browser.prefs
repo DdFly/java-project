@@ -1,0 +1,4 @@
+browser-choice=1
+browsers=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<web-browsers current\="2">\r\n<system/>\r\n<external location\="C\:\\Program Files\\Internet Explorer\\iexplore.exe" name\="Internet Explorer"/>\r\n<external location\="D\:\\\u5E94\u7528\\QQ\u6D4F\u89C8\u5668\\QQBrowser\\qqbrowser.exe" name\="QQ"/>\r\n</web-browsers>
+eclipse.preferences.version=1
+internalWebBrowserHistory=http\://localhost\:8080/firstJSP/index.jsp|*|http\://localhost\:8080/firstJSP/servlet/FirstServlet|*|http\://192.168.191.1\:8080/firstJSP/index.jsp|*|http\://localhost\:8080/firstJSP/WEB-INF/web.xml|*|http\://localhost\:8080/fdd/index.jsp|*|http\://localhost\:8080/lirui/index.jsp|*|http\://localhost\:8080/lirui/name.jsp|*|

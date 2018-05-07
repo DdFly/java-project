@@ -1,0 +1,41 @@
+package com.example.musiclist;
+
+import android.app.Activity;
+import android.content.ContentResolver;
+import android.content.Context;
+import android.database.Cursor;
+import android.os.Bundle;
+import android.provider.MediaStore;
+import android.view.Menu;
+import android.view.MenuItem;
+import android.widget.ListView;
+
+public class MainActivity extends Activity {
+
+	ListView musicList;
+	long[] _id;
+	String[] _title;
+	String[] _url;
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.activity_main);
+		musicList = (ListView) findViewById(R.id.musicList);
+		ContentResolver myResolver = getContentResolver();
+		Cursor cursor = myResolver.query(MediaStore.Audio.Media.EXTERNAL_CONTENT_URI, null, null, null, MediaStore.Audio.Media.DEFAULT_SORT_ORDER);
+		cursor.moveToFirst();
+		_id = new long[cursor.getCount()];
+		_title = new String[cursor.getCount()];
+		_url = new String[cursor.getCount()];
+		for (int i=0;i<cursor.getCount();i++){
+			_id[i]=cursor.getLong(cursor.getColumnIndex(MediaStore.Audio.Media._ID));
+			_title[i]=cursor.getString(cursor.getColumnIndex(MediaStore.Audio.Media.TITLE));
+			_url[i] = cursor.getString(cursor.getColumnIndex(MediaStore.Audio.Media.DATA));
+		}
+		
+	}
+	
+
+
+}
+

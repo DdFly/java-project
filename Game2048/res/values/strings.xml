@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Game2048</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="_Score">分数</string>
+    <string name="_Step">步数</string>
+    <string name="_High">最高分</string>
+
+</resources>

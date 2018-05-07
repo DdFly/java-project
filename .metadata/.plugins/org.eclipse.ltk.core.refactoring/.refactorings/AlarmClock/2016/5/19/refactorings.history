@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="将资源“AlarmClock/res/drawable/Beyoncé - Listen.mp3”重命名为“listen.mp3”" description="重命名资源“Beyoncé - Listen.mp3”" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="res/drawable/Beyoncé - Listen.mp3" name="listen.mp3" stamp="1462463661740" updateReferences="true"/>
+</session>

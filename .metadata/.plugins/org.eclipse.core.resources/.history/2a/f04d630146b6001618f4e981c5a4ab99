@@ -1,0 +1,62 @@
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <android.support.v4.view.ViewPager
+        android:id="@+id/pager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">        
+    </android.support.v4.view.ViewPager>
+    <LinearLayout   
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <LinearLayout 
+            android:id="@+id/tab1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+        	android:background="#6000"
+            android:orientation="vertical">
+            <ImageButton 
+                android:id="@+id/tab1_img"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:scaleType="fitXY"
+                android:clickable="false"
+                android:src="@drawable/chat1"/>
+            <TextView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="连接"/>            
+        </LinearLayout>
+        <LinearLayout 
+            android:id="@+id/tab2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+        	android:background="#6000"
+            android:orientation="vertical">
+            <ImageButton 
+                android:id="@+id/tab2_img"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:scaleType="fitXY"
+                android:clickable="false"
+                android:src="@drawable/device1"/>
+            <TextView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="对话"/>
+        </LinearLayout>
+        
+    </LinearLayout>
+</LinearLayout>
+

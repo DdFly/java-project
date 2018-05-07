@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "
+http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.xupt.ams.dao.DeptDao">
+	<!-- 结果映射 -->
+	<resultMap type="DeptInfo" id="rm1">
+		<id property="dept_id" column="dept_id"/>
+		<result property="dept_name" column="dept_name"/>
+		<result property="dept_location" column="dept_location"/>
+		<result property="dept_desc" column="dept_desc"/>
+	</resultMap>
+	
+	<!-- 获取部门列表 -->
+	<select id="getDeptList" resultMap="rm1">
+		select * from dept
+	</select>
+</mapper>

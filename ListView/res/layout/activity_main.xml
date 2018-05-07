@@ -1,0 +1,33 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.listview.MainActivity" >
+	
+    <Button 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="List1"
+        android:id="@+id/list_1"
+        android:background="@drawable/bt_back"
+        android:layout_gravity="center_horizontal"/>
+    
+    <Button 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="List2"
+        android:id="@+id/list_2"
+        android:background="@drawable/bt_selector"
+        android:layout_gravity="center_horizontal"/>
+    
+    <Button 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="List3"
+        android:id="@+id/list_3"
+        android:background="@drawable/bt_selector"
+        android:layout_gravity="center_horizontal"/>
+    
+
+</LinearLayout>

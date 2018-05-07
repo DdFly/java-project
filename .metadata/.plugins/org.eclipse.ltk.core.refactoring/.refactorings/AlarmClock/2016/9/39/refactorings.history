@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;R.java&apos; to &apos;MediaTest/gen/com.example.mediatest&apos;&#x0D;&#x0A;－ 原始项目：“AlarmClock”&#x0D;&#x0A;－ 目标元素：“MediaTest/gen/com.example.mediatest”&#x0D;&#x0A;－ 原始元素：“com.example.alarmclock.R.java”" description="复制编译单元" destination="=MediaTest/gen&lt;com.example.mediatest" element1="/gen&lt;com.example.alarmclock{R.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1474695475151" units="1" version="1.0"/>
+</session>

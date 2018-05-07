@@ -1,0 +1,28 @@
+package com.example.attms;
+
+import com.example.utils.ActivityCollector;
+
+import android.app.Activity;
+import android.os.Bundle;
+import android.view.Window;
+
+public class MainActivity extends Activity  {
+
+
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.activity_main);
+		requestWindowFeature(Window.FEATURE_NO_TITLE);
+		
+	}
+	
+	@Override
+	protected void onDestroy() {
+		// TODO 自动生成的方法存根
+		super.onDestroy();
+		ActivityCollector.finishAll();
+	}
+	
+
+}

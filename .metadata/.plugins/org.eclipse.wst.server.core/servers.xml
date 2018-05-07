@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<servers>
+  <server auto-publish-setting="2" auto-publish-time="1" configuration-id="/服务器/Tomcat v8.0 Server @ localhost-config" deployDir="wtpwebapps" hostname="localhost" id="Tomcat v8.0 Server @ localhost" name="Tomcat v8.0 Server @ localhost" runtime-id="Apache Tomcat v8.0" server-type="org.eclipse.jst.server.tomcat.80" server-type-id="org.eclipse.jst.server.tomcat.80" start-timeout="45" stop-timeout="15" testEnvironment="true" timestamp="6">
+    <list key="modules" value0="firstJSP::org.eclipse.jst.jee.server:firstJSP::jst.web::3.0" value1="ttms::org.eclipse.jst.jee.server:ttms::jst.web::3.1"/>
+  </server>
+</servers>

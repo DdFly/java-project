@@ -1,0 +1,37 @@
+package com.example.myview;
+
+import android.content.Context;
+import android.content.res.TypedArray;
+import android.util.AttributeSet;
+import android.view.View;
+
+public class Rec extends View{
+
+	public Rec(Context context, AttributeSet attrs, int defStyle) {
+		super(context, attrs, defStyle);
+		// TODO 自动生成的构造函数存根
+		init();
+	}
+
+	public Rec(Context context, AttributeSet attrs) {
+		super(context, attrs);
+		// TODO 自动生成的构造函数存根
+		TypedArray ta = context.obtainStyledAttributes(attrs, R.styleable.MyV);
+		int color = ta.getColor(R.styleable.MyV_rec_color ,0xffff00);
+		setBackgroundColor(color);
+		ta.recycle();
+		init();
+	}
+
+	public Rec(Context context) {
+		super(context);
+		// TODO 自动生成的构造函数存根
+		init();
+	}
+
+	private void init() {
+		// TODO 自动生成的方法存根
+		
+	}
+
+}

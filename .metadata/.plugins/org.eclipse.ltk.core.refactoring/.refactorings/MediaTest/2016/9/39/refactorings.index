@@ -1,0 +1,8 @@
+1474546124300	重命名类型“AudioActivitty”
+1474546736031	Extracts string '调节音量' into R.string._turnAudio
+1474546758710	Extracts string '播放音乐' into R.string._mediaPlayer
+1474546777693	Extracts string '录音功能' into R.string._mediaRecoder
+1474546796923	Extracts string '拍照功能' into R.string._camera
+1474551844983	重命名资源“player_layout.xml”
+1474693863732	删除元素
+1474696124785	重命名资源“return.png”

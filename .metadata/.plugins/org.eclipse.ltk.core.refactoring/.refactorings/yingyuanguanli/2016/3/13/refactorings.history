@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;新建文件夹 (2)&apos; to &apos;lianxi&apos;&#x0D;&#x0A;－ 原始项目：“yingyuanguanli”&#x0D;&#x0A;－ 目标元素：“lianxi”&#x0D;&#x0A;－ 原始元素：“新建文件夹 (2)”" description="复制文件夹" destination="=lianxi" element1="新建文件夹 (2)" files="0" flags="589830" folders="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1458629925208" units="0" version="1.0"/>
+</session>

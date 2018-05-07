@@ -1,0 +1,22 @@
+package com.example.dao;
+
+import java.util.List;
+
+import com.example.model.Car;
+
+public class Exhibition_Dao {
+	
+	public List<Car> CarList(){
+		List <Car> listCar=null;
+		
+		return listCar;
+	}
+	public List<Car> CarList(String s){
+		List <Car> listCar=null;
+		
+		return listCar;
+	}
+	
+	
+	
+}

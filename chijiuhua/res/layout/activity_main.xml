@@ -1,0 +1,30 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+	android:orientation="vertical"
+    tools:context="com.example.chijiuhua.MainActivity" >
+
+    <Button 
+        android:id="@+id/wenjian"
+        android:text="文件操作"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="#ffff00"/>
+    <Button 
+        android:id="@+id/shared"
+        android:text="SharedPreferences"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="#00ffff"/>
+    <Button 
+        android:id="@+id/SQL"
+        android:text="SQLite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="#ff00ff"/>
+
+</LinearLayout>

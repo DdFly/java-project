@@ -1,0 +1,58 @@
+package com.example.myview;
+
+import android.content.Context;
+import android.content.res.TypedArray;
+import android.graphics.Canvas;
+import android.graphics.Color;
+import android.graphics.Paint;
+import android.util.AttributeSet;
+import android.view.View;
+
+public class Rec extends View{
+
+	Paint p;
+	float degrees;
+	public Rec(Context context, AttributeSet attrs, int defStyle) {
+		super(context, attrs, defStyle);
+		// TODO 自动生成的构造函数存根
+//		TypedArray ta = context.obtainStyledAttributes(attrs, R.styleable.MyV);
+//		int color = ta.getColor(R.styleable.MyV_rec_color ,0xffff00);
+//		setBackgroundColor(color);
+//		ta.recycle();
+		init();
+	}
+
+	public Rec(Context context, AttributeSet attrs) {
+		super(context, attrs);
+		// TODO 自动生成的构造函数存根
+//		TypedArray ta = context.obtainStyledAttributes(attrs, R.styleable.MyV);
+//		int color = ta.getColor(R.styleable.MyV_rec_color ,0xffff0000);
+//		setBackgroundColor(color);
+//		ta.recycle();
+		init();
+	}
+
+	public Rec(Context context) {
+		super(context);
+		// TODO 自动生成的构造函数存根
+		init();
+	}
+
+	private void init() {
+		// TODO 自动生成的方法存根
+		p = new Paint();
+		p.setColor(Color.GREEN);
+		degrees = 0;
+	}
+	
+	@Override
+	public void draw(Canvas canvas) {
+		// TODO 自动生成的方法存根
+		super.draw(canvas);
+		canvas.rotate(degrees, 50, 50);
+		canvas.drawRect(0, 0, 100, 100, p);
+		degrees++;
+		invalidate();
+	}
+
+}

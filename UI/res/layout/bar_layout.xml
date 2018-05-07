@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/view"
+        android:text="进度：0"/>
+    <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/star"
+        android:text="星级：0"/>
+
+    <SeekBar
+        android:id="@+id/seekBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="100" />
+
+    <ProgressBar 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@android:attr/progressBarStyleHorizontal"
+        android:id="@+id/bar1"
+        android:max="100"
+        />
+    <ProgressBar 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@android:attr/progressBarStyleLarge"
+        android:id="@+id/bar2"
+        android:max="100"
+        />
+    <ProgressBar 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@android:style/Widget.ProgressBar.Inverse"
+        android:id="@+id/bar3"
+        android:max="100"
+        />
+    <ProgressBar 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@android:style/Widget.ProgressBar.Large"
+        android:id="@+id/bar4"
+        android:max="100"
+        />
+    <ProgressBar 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:id="@+id/bar5"
+        android:max="100"
+        />
+    <Button 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="开始进度"
+        android:id="@+id/bar_start"
+        android:layout_gravity="center_horizontal"
+        android:background="#5af"/>
+    <RatingBar 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="#f0f"
+        android:id="@+id/starbar"
+        android:numStars="6"
+        android:stepSize="0.5"/>
+    <Button 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="提交"
+        android:background="#ff0"
+        android:id="@+id/login"/>
+
+</LinearLayout>

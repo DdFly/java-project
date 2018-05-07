@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+<listEntry value="/TTMS_JAVA/src/xupt/se/ttms/view/tmpl/testGUI.java"/>
+</listAttribute>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+<listEntry value="1"/>
+</listAttribute>
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="xupt.se.ttms.view.tmpl.testGUI"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="TTMS_JAVA"/>
+</launchConfiguration>

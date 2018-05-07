@@ -1,0 +1,14 @@
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+	
+	<!-- <fragment 
+	    android:id="@+id/f1"
+	    android:name="com.example.http01.view.Fragment1"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent">    
+	</fragment> -->
+	
+</FrameLayout>

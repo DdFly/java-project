@@ -1,0 +1,46 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <AnalogClock 
+        android:id="@+id/AnalogClock"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:dial="@drawable/clock3"       
+        android:layout_gravity="center_horizontal"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textSize="20sp"
+        android:textColor="#FF1F0F"
+        android:text="****年**月**日"
+        android:id="@+id/TextView"/>"
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"        
+        android:textSize="20sp"
+        android:textColor="#FF1F0F"
+        android:text="星期*"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/TextView1"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"        
+        android:textSize="20sp"
+        android:textColor="#FF1F0F"
+        android:text="**:**:**"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/TextView2"/>
+    <Button 
+        android:id="@+id/miaobiao"
+        android:text="秒表"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center_horizontal"/>
+ 
+
+</LinearLayout>

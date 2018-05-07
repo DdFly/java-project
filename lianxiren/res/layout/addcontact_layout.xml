@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+    <TableRow >
+        <TextView 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="姓名："
+            android:layout_marginLeft="5dp"
+            android:textSize="20dp"/>
+        <EditText 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="输入好友姓名"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/name_input"
+            android:selectAllOnFocus="true"/>
+    </TableRow>
+    <TableRow >
+        <TextView 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="号码："
+            android:layout_marginLeft="5dp"
+            android:textSize="20dp"/>
+        <EditText 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="输入要添加的号码"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/num_input"/>
+    </TableRow>
+    
+    
+
+</TableLayout>

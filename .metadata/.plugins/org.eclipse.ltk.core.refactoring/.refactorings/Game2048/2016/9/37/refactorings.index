@@ -1,0 +1,13 @@
+1473309323471	Extracts string '分数' into R.string._score
+1473309350112	Extracts string '步数' into R.string._num
+1473329323699	重命名包“game”
+1473329386982	重命名包“db”
+1473329403951	删除元素
+1473329408873	删除元素
+1473329411279	删除元素
+1473329578677	删除元素
+1473330087794	删除元素
+1473330138467	删除元素
+1473415667577	Extracts string '分数：' into R.string._Score
+1473415713478	Extracts string '步数：' into R.string._Step
+1473415837889	Extracts string '最高分：' into R.string._High

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ListView</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string-array name="string_name">
+        <item>布鲁</item>
+        <item>方丈</item>
+        <item >董球</item>
+        <item >唐年</item>
+        <item >杨超</item>
+        <item >徐康</item>
+        <item >李瑞</item>
+        <item >代栋</item>
+        <item >狗蛋</item>
+        <item >二蛋</item>
+        <item >毛蛋</item>
+        <item >蛋蛋</item>
+        <item >球蛋</item>
+        <item >大锤</item>
+        <item >猴子</item>
+        <item>布鲁</item>
+        <item>方丈</item>
+        <item >董球</item>
+        <item >唐年</item>
+        <item >杨超</item>
+        <item >徐康</item>
+        <item >李瑞</item>
+        <item >代栋</item>
+        <item >狗蛋</item>
+        <item >二蛋</item>
+        <item >毛蛋</item>
+        <item >蛋蛋</item>
+        <item >球蛋</item>
+        <item >大锤</item>
+        <item >猴子</item>
+        <item>布鲁</item>
+        <item>方丈</item>
+        <item >董球</item>
+        <item >唐年</item>
+        <item >杨超</item>
+        <item >徐康</item>
+        <item >李瑞</item>
+        <item >代栋</item>
+        <item >狗蛋</item>
+        <item >二蛋</item>
+        <item >毛蛋</item>
+        <item >蛋蛋</item>
+        <item >球蛋</item>
+        <item >大锤</item>
+        <item >猴子</item>
+        <item>布鲁</item>
+        <item>方丈</item>
+        <item >董球</item>
+        <item >唐年</item>
+        <item >杨超</item>
+        <item >徐康</item>
+        <item >李瑞</item>
+        <item >代栋</item>
+        <item >狗蛋</item>
+        <item >二蛋</item>
+        <item >毛蛋</item>
+        <item >蛋蛋</item>
+        <item >球蛋</item>
+        <item >大锤</item>
+        <item >猴子</item>
+    </string-array>
+    <string-array name="beizhu">
+        <item>你这个大傻逼</item>
+        <item>你这个大傻逼</item>
+        <item>你这个大傻逼</item>
+        <item>你这个大傻逼</item>
+        <item>你这个大傻逼</item>
+        <item>你这个大傻逼</item>
+        <item>你这个大傻逼</item>
+        <item>你这个大傻逼</item>
+        <item>你这个大傻逼</item>
+        <item>你这个大傻逼</item>
+        <item>你这个大傻逼</item>
+        <item>你这个大傻逼</item>
+        <item>你这个大傻逼</item>
+        <item>你这个大傻逼</item>
+        <item>你这个大傻逼</item>
+        <item>你这个大傻逼</item>
+        <item>你这个大傻逼</item>
+        <item>你这个大傻逼</item>
+        <item>你这个大傻逼</item>
+        <item>你这个大傻逼</item>
+        <item>你这个大傻逼</item>
+        <item>你这个大傻逼</item>
+        <item>你这个大傻逼</item>
+        <item>你这个大傻逼</item>
+        <item>你这个大傻逼</item>
+        <item>你这个大傻逼</item>
+        <item>你这个大傻逼</item>
+        <item>你这个大傻逼</item>
+        <item>你这个大傻逼</item>
+        <item>你这个大傻逼</item>
+        <item>你这个大傻逼</item>
+        <item>你这个大傻逼</item>
+        <item>你这个大傻逼</item>
+        <item>你这个大傻逼</item>
+        <item>你这个大傻逼</item>
+        <item>你这个大傻逼</item>
+    </string-array>
+
+</resources>

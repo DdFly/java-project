@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"    
+    android:background="@drawable/backgrount_login" 
+    android:orientation="vertical" >
+    <RelativeLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:gravity="center_vertical"
+	    android:background="#0E6DB0">
+	    <ImageButton 
+	        android:id="@+id/open_drewer"
+	        android:layout_width="30dp"
+	        android:layout_height="30dp"
+	        android:layout_centerVertical="true"
+	        android:layout_alignParentLeft="true"
+	        android:background="#00000000"
+	        android:src="@drawable/fanhui"/>
+	    <TextView 
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_centerHorizontal="true"
+	        android:layout_margin="10dp"
+	        android:text="TTMS"
+	        android:textSize="25sp"
+	        />
+	    <ImageButton 
+	        android:id="@+id/add_bt"
+	        android:layout_width="30dp"
+	        android:layout_height="30dp"
+	        android:scaleType="fitCenter"
+	        android:layout_alignParentRight="true"
+	        android:layout_centerVertical="true"
+	        android:background="#00000000"
+	        android:src="@drawable/wancheng"/>
+	</RelativeLayout>
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal">
+        <LinearLayout 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+	            android:layout_marginLeft="20dp"
+	            android:textSize="20sp"
+                android:text="电影名称"/>
+            <EditText 
+	            android:id="@+id/movie_edit_name"
+	            android:layout_width="180dp"
+	            android:layout_height="wrap_content"
+	            android:layout_marginTop="20dp"
+	            android:layout_marginLeft="20dp"
+	            android:textSize="30sp"
+	            android:singleLine="true"/>
+            <LinearLayout 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:orientation="horizontal">
+                <TextView 
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:text="时长"/>
+                <EditText android:id="@+id/movie_edit_time"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:text="0"
+                    android:textSize="20sp"/>
+            </LinearLayout>
+        </LinearLayout>
+        <ImageView 
+            android:id="@+id/movie_edit_img"
+            android:layout_width="100dp"
+            android:layout_height="120dp"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/ic_launcher"/>
+    </LinearLayout>
+    <TextView android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#2000"
+        android:text="影片类型"/>
+    <TableLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+        <TableRow >
+
+            <CheckBox android:text="惊悚" />
+            <CheckBox android:text="喜剧"/>
+            <CheckBox android:text="犯罪"/>
+            <CheckBox android:text="爱情" />
+
+        </TableRow>
+        <TableRow >
+            <CheckBox android:text="科幻" />
+            <CheckBox android:text="动作"/>
+            <CheckBox android:text="悬疑"/>            
+            <CheckBox android:text="冒险" />
+        </TableRow>
+        <TableRow >
+            <CheckBox android:text="战争" />
+            <CheckBox android:text="武侠"/>
+            <CheckBox android:text="纪录"/>
+        </TableRow>
+        
+    </TableLayout>
+    <TextView android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#2000"
+        android:text="影片介绍"/>
+    <EditText android:id="@+id/movie_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:lines="5"/>
+    <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#2000"
+        android:text="主要演员"/>
+    
+
+</LinearLayout>
+

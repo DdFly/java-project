@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="将资源“BroadcastPractice/res/layout/denglujiemian.xml”重命名为“login.xml”" description="重命名资源“denglujiemian.xml”" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="res/layout/denglujiemian.xml" name="login.xml" stamp="1460449031932" updateReferences="true"/>
+</session>
